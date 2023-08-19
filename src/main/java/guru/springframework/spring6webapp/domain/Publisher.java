@@ -75,7 +75,7 @@ public class Publisher {
 
     @Override
     public String toString() {
-        return "\"publisher\" {" +
+        return "\"publisher\": {" +
                 "\"id\": " + id +
                 ", \"publisherName\": \"" + publisherName + '\"' +
                 ", \"address\": \"" + address + '\"' +

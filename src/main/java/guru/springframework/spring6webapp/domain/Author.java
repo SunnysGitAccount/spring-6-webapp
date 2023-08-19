@@ -50,12 +50,12 @@ public class Author {
 
     @Override
     public String toString() {
-        return "\"author\" {" +
+        return "{\"author\": {" +
                 "\"id\": " + id +
                 ", \"firstName\": \"" + firstName + '\"' +
                 ", \"lastName\": \"" + lastName + '\"' +
                 ", \"books\": " + books +
-                '}';
+                "}}";
     }
 
     @Override

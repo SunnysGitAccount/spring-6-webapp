@@ -64,7 +64,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return "\"book\" {" +
+        return "{" +
                 "\"id\": " + id +
                 ", \"title\": \"" + title + '\"' +
                 ", \"isbn\": \"" + isbn + '\"' +
