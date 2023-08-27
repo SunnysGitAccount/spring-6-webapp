@@ -17,7 +17,7 @@ public class SpringDiExampleAppTest {
 
     @Test
     void testAutoWiredOfController() {
-        assertEquals("Hello World!", myController.sayHello());
+        assertEquals("Hello World from Service!", myController.sayHello());
         System.out.println(myController.sayHello());
     }
 
